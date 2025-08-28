@@ -11,8 +11,6 @@ const nextConfig = {
   },
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/ezee-admission-live' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/ezee-admission-live' : '',
 }
 
 export default nextConfig

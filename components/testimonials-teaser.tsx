@@ -12,28 +12,28 @@ const testimonials = [
   {
     name: "Dr. Pranjal Bayas",
     role: "Bachelor of Physiotherapy, Mumbai",
-    image: "images/Pranjal.png?height=60&width=60",
+    image: "/images/Pranjal.png",
     quote:
       "Ezee Admissions, led by Mr. Bharat Dagade, turned my admission setbacks into a success story. Their expert guidance and unwavering support helped me secure a seat in the Bachelor of Physiotherapy program in Mumbai. I highly recommend their services to any student and parent seeking trustworthy and result-oriented admission guidance.",
   },
   {
     name: "Yash Chaudhari",
     role: "Chemical Engineering, ICT Jalgaon",
-    image: "images/Yash.png?height=60&width=60",
+    image: "/images/Yash.png",
     quote:
       "With unparalleled support from Mr. Bharat Dagade and the Ezee Admissions team, I secured a Chemical Engineering program admission at ICT Jalgaon under the TFWS and government scholarship. The Engineering Stream Selector session guided me to confidently choose Chemical Engineering, aligning with my career aspirations. Their honest advice and personalised attention made the process stress-free and smooth, ensuring I secured financial aid as well.",
   },
   {
     name: "Dr. Gaurangi Gurav",
     role: "Medical Student",
-    image: "images/Gaurangi.png?height=60&width=60",
+    image: "/images/Gaurangi.png",
     quote:
       "After scoring 169 out of 720 in NEET on my second attempt, setbacks almost deterred my dream of becoming a doctor. However, with the invaluable support and guidance from Ezee Admissions and Bharat Dagade Sir, I overcame challenges, secured admission in a reputed medical college, and received timely scholarships. Their unwavering assistance and belief in me transformed setbacks into stepping stones towards my passion for medicine.",
   },
   {
     name: "Mayank Mayekar",
     role: "Civil Engineering, SP College",
-    image: "images/Mayank.png?height=60&width=60",
+    image: "/images/Mayank.png",
     quote:
       "I enlisted the help of Tamhane Sir and Bharat Sir from Ezee Admissions to navigate my academic path. Through psychometric testing and expert guidance, I found clarity in choosing the PCM stream and later, secured admission successfully in Civil Engineering at SP College. Their support transformed my uncertainty into a confident and fulfilling academic journey.",
   },

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Facebook, Twitter, Instagram, Linkedin, Mail } from "lucide-react";
@@ -24,9 +25,11 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <img
+              <Image
                 src="/images/ezee-logo.png"
                 alt="Ezee Admissions Logo"
+                width={40}
+                height={40}
                 className="h-10 w-10 object-contain"
               />
               <span className="text-xl font-bold">Ezee Admissions</span>

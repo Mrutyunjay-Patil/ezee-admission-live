@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu, MessageCircle } from "lucide-react"
@@ -68,7 +69,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <img src="/images/ezee-logo.png" alt="Ezee Admissions Logo" className="h-10 w-10 object-contain" />
+            <Image src="/images/ezee-logo.png" alt="Ezee Admissions Logo" width={40} height={40} className="h-10 w-10 object-contain" />
             <span className="text-xl font-bold text-gray-900">Ezee Admissions</span>
           </Link>
 
@@ -104,7 +105,7 @@ export function Header() {
               <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                 <div className="flex flex-col space-y-4 mt-8">
                   <div className="flex items-center space-x-2 mb-6">
-                    <img src="/images/ezee-logo.png" alt="Ezee Admissions Logo" className="h-10 w-10 object-contain" />
+                    <Image src="/images/ezee-logo.png" alt="Ezee Admissions Logo" width={40} height={40} className="h-10 w-10 object-contain" />
                     <span className="text-xl font-bold text-gray-900">Ezee Admissions</span>
                   </div>
                   {navigation.map((item) => (
