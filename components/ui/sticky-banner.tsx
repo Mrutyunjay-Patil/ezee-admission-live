@@ -10,7 +10,7 @@ export const StickyBanner = ({
   hideOnScroll = false,
 }: {
   className?: string
-  children: React.ReactNode
+  children?: React.ReactNode
   hideOnScroll?: boolean
 }) => {
   const [open, setOpen] = useState(true)
@@ -49,9 +49,11 @@ export const StickyBanner = ({
         ease: "easeInOut",
       }}
     >
-      <div className="text-white text-sm font-medium text-center">
-        🎉 Limited Time Offer: Get upto 50% off on Premium Counseling Package - Book Now!
-      </div>
+      {children || (
+        <div className="text-white text-sm font-medium text-center">
+          🎉 Limited Time Offer: Get upto 50% off on Premium Counseling Package - Book Now!
+        </div>
+      )}
     </motion.div>
   )
 }
